@@ -4,19 +4,7 @@
   "description": "Chapter 3 project",
   "author": "Leaan Balloni",
   "license": "MIT",
-  "keywords": [
-    "react",
-    "express",
-    "mongodb",
-    "node",
-    "mern"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shamahoque/mern-skeleton.git"
-  },
-  "homepage": "https://github.com/shamahoque/mern-skeleton",
-  "main": "./dist/server.generated.js",
+  
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
